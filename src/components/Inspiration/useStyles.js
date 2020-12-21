@@ -109,7 +109,7 @@ export const useStyles = makeStyles(theme => ({
     width: 550,
   },
 
-  expert: {
+  inspo: {
     display: "flex",
     justifyContent: "space-evenly",
     marginTop: 50,
@@ -119,7 +119,7 @@ export const useStyles = makeStyles(theme => ({
     },
   },
 
-  expertImg: {
+  inspoImg: {
     boxShadow: "10px 10px 5px #ccc",
   },
 
