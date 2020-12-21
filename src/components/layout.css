@@ -2,10 +2,7 @@
 
 body {
   margin: 0;
-  /* font-family: 'Merriweather', serif; */
   font-family: "Montserrat", "Roboto";
-  /* font-family: 'Raleway', sans-serif; */
-  /* font-family: 'Dosis', sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
