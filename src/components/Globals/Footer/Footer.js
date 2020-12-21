@@ -39,7 +39,7 @@ export default function Footer() {
                 </a>
               </li>
               <li class="mb-2">
-                <a class="nav-link text-dark" href="/contact-us">
+                <a class="nav-link text-dark" href="/contact">
                   Contact Us
                 </a>
               </li>
