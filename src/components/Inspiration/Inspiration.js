@@ -1,5 +1,5 @@
 import React from "react"
-import { useStyles } from "./useStyles"
+import { useStyles } from "./useStylesInspo"
 
 const Inspiration = () => {
   const classes = useStyles()
