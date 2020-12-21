@@ -1,5 +1,5 @@
 import React from "react"
-import { useStyles } from "./useStylesAbout"
+import { useStyles } from "./useStylesContact"
 
 const AboutUs = () => {
   const classes = useStyles()

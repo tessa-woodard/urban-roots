@@ -24,6 +24,15 @@ export const useStyles = makeStyles(theme => ({
     color: "white",
   },
 
+  subtitle: {
+    fontSize: 35,
+    color: "white",
+    fontStyle: "italic",
+    letterSpacing: 0.5,
+    display: "block",
+    fontWeight: 600,
+  },
+
   second: {
     display: "flex",
     justifyContent: " space-around",
@@ -71,5 +80,54 @@ export const useStyles = makeStyles(theme => ({
       width: "60%",
       height: 350,
     },
+  },
+  third: {
+    backgroundColor: "whitesmoke",
+    textAlign: "center",
+    padding: "40px 0",
+  },
+
+  thirdTitle: {
+    fontSize: 38,
+    lineHeight: "1.4em",
+    marginBottom: 20,
+    fontFamily: "'Playfair Display', serif",
+    fontWeight: "bold",
+  },
+
+  thirdSubtitle: {
+    fontSize: 20,
+    lineHeight: "29px",
+    width: 550,
+    // display: "inline-block",
+  },
+
+  expert: {
+    display: "flex",
+    justifyContent: "space-evenly",
+    marginTop: 50,
+    [theme.breakpoints.down("md")]: {
+      flexWrap: "wrap",
+      flexDirection: "row",
+    },
+  },
+
+  expertImg: {
+    borderRadius: "50%",
+  },
+
+  expertTitle: {
+    fontSize: 14,
+    lineHeight: "2em",
+    fontWeight: 500,
+    letterSpacing: ".1em",
+    textTransform: "uppercase",
+    marginTop: 18,
+  },
+
+  expertName: {
+    fontSize: 18,
+    color: "#afafaf",
+    margin: "2px 0 4px",
   },
 }))
