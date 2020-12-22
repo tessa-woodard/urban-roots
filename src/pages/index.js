@@ -13,8 +13,6 @@ const IndexPage = ({ data }) => (
       title="Urban Roots"
       styleClass="default-background"
     />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
   </Layout>
 )
 
