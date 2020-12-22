@@ -31,6 +31,21 @@ export const useStyles = makeStyles(theme => ({
     },
   },
 
+  firstInspo: {
+    padding: "110px 0",
+    height: "100%",
+    textAlign: "center",
+    backgroundImage:
+      "url('https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspiration.jpg?raw=true')",
+    backgroundAttachment: "fixed",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    [theme.breakpoints.down("md")]: {
+      backgroundPosition: "right",
+    },
+  },
+
   titleContact: {
     fontSize: 80,
     fontWeight: 600,
@@ -54,6 +69,15 @@ export const useStyles = makeStyles(theme => ({
     letterSpacing: 0.5,
     display: "block",
     fontWeight: 600,
+  },
+
+  subtitleInspo: {
+    fontSize: 40,
+    color: "white",
+    fontStyle: "italic",
+    letterSpacing: 0.5,
+    display: "block",
+    fontWeight: "bold",
   },
 
   second: {
@@ -92,7 +116,27 @@ export const useStyles = makeStyles(theme => ({
     },
   },
 
+  secondTitleInspo: {
+    fontSize: "2.5em",
+    lineHeight: "1.4em",
+    marginBottom: 40,
+    fontFamily: "'Playfair Display', serif",
+    letterSpacing: "1.1px",
+    marginTop: 0,
+    [theme.breakpoints.down("md")]: {
+      fontSize: "1.7em",
+    },
+  },
+
   secondTextAbout: {
+    fontSize: 17,
+    lineHeight: "29px",
+    marginBottom: 40,
+    color: "rgba(0,0,0,0.5)",
+    textAlign: "justify",
+  },
+
+  secondTextInspo: {
     fontSize: 17,
     lineHeight: "29px",
     marginBottom: 40,
@@ -126,8 +170,27 @@ export const useStyles = makeStyles(theme => ({
     },
   },
 
+  imgBlockInspo: {
+    width: "38%",
+    backgroundImage:
+      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-collage.jpg?raw=true")',
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    [theme.breakpoints.down("md")]: {
+      width: "60%",
+      height: 350,
+    },
+  },
+
   third: {
     backgroundColor: "whitesmoke",
+    textAlign: "center",
+    padding: "40px 0",
+  },
+
+  thirdInspo: {
+    backgroundColor: "#FEFDF9",
     textAlign: "center",
     padding: "40px 0",
   },
@@ -159,6 +222,21 @@ export const useStyles = makeStyles(theme => ({
 
   expertImg: {
     borderRadius: "50%",
+  },
+
+  inspo: {
+    display: "flex",
+    justifyContent: "space-evenly",
+    marginTop: 50,
+    marginBottom: 50,
+    [theme.breakpoints.down("md")]: {
+      flexWrap: "wrap",
+      flexDirection: "row",
+    },
+  },
+
+  inspoImg: {
+    boxShadow: "10px 10px 5px #ccc",
   },
 
   expertTitle: {

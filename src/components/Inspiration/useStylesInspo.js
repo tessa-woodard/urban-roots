@@ -1,7 +1,7 @@
 import { makeStyles } from "@material-ui/core/styles"
 
 export const useStyles = makeStyles(theme => ({
-  first: {
+  firstInspo: {
     padding: "110px 0",
     height: "100%",
     textAlign: "center",
@@ -16,7 +16,7 @@ export const useStyles = makeStyles(theme => ({
     },
   },
 
-  title: {
+  titleContact: {
     fontSize: 80,
     fontWeight: 600,
     margin: 0,

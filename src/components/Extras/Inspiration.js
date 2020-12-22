@@ -1,25 +1,25 @@
 import React from "react"
-import { useStyles } from "./useStylesInspo"
+import { useStyles } from "./useStyles"
 
 const Inspiration = () => {
   const classes = useStyles()
 
   return (
     <>
-      <div className={classes.first}>
-        <h2 className={classes.title}>Inspiration</h2>
-        <span className={classes.subtitle}>
+      <div className={classes.firstInspo}>
+        <h2 className={classes.titleContact}>Inspiration</h2>
+        <span className={classes.subtitleInspo}>
           Looking for inspiration? Well you came to the right place!
         </span>
       </div>
       <div className={classes.second}>
-        <div className={classes.imgBlock} />
+        <div className={classes.imgBlockInspo} />
         <div className={classes.text}>
-          <h2 className={classes.secondTitle}>
+          <h2 className={classes.secondTitleInspo}>
             Plants in the <span className={classes.flowers}> wild </span> aka
             your home.. {""}
           </h2>
-          <p className={classes.secondText}>
+          <p className={classes.secondTextInspo}>
             When you think of seeing a plant in wild you may think in its
             natural habitat like the tropics. We, as the Urban Roots family,
             think of it as seeing it in your homes! We love seeing the different
@@ -28,7 +28,7 @@ const Inspiration = () => {
             through every step of the Urban Roots experience. That includes
             finding the perfect match to represent your personal style!
           </p>
-          <p className={classes.secondText}>
+          <p className={classes.secondTextInspo}>
             Plants are a great way to decorate your home but they also bring a
             sense of life and companionship. If you're a crazy plant person
             (like us) you probably chat with your plants, name your plants and
@@ -40,7 +40,7 @@ const Inspiration = () => {
             your family and they rely on you to keep growing. Once you start to
             recognize growth you feel a little bit of pride and crave more!
           </p>
-          <p className={classes.secondText}>
+          <p className={classes.secondTextInspo}>
             This is my home. You could call it "confused groovy bohemian beachy
             chic". I like to think my plants have different personalities and
             their pots are just accessories. Mixing patterns is my favorite ! I
@@ -49,15 +49,15 @@ const Inspiration = () => {
             your style and there are no wrong answers.. unless it's a fake
             plant.
           </p>
-          <p className={classes.secondText}>
+          <p className={classes.secondTextInspo}>
             If you ever have a space in mind that you think could use some plant
             energy take a picture and reach out! Our staff are PRO'S and can
             assist in making your home an actual jungle.
           </p>
-          <p className={classes.secondText}>- Tessa Woodard</p>
+          <p className={classes.secondTextInspo}>- Tessa Woodard</p>
         </div>
       </div>
-      <div className={classes.third}>
+      <div className={classes.thirdInspo}>
         <div className={classes.inspo}>
           <div>
             <img
