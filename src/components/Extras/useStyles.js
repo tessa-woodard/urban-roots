@@ -1,7 +1,7 @@
 import { makeStyles } from "@material-ui/core/styles"
 
 export const useStyles = makeStyles(theme => ({
-  first: {
+  firstContact: {
     padding: "130px 0",
     height: "100%",
     textAlign: "center",
@@ -16,7 +16,22 @@ export const useStyles = makeStyles(theme => ({
     },
   },
 
-  title: {
+  firstAbout: {
+    padding: "110px 0",
+    height: "100%",
+    textAlign: "center",
+    backgroundImage:
+      "url('https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/background.jpeg?raw=true')",
+    backgroundAttachment: "fixed",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    // backgroundSize: 'cover',
+    [theme.breakpoints.down("md")]: {
+      backgroundPosition: "right",
+    },
+  },
+
+  titleContact: {
     fontSize: 80,
     fontWeight: 600,
     margin: 0,
@@ -24,9 +39,17 @@ export const useStyles = makeStyles(theme => ({
     color: "white",
   },
 
-  subtitle: {
+  titleAbout: {
+    fontSize: 70,
+    fontWeight: 600,
+    margin: 0,
+    fontFamily: "'Playfair Display', serif",
+    color: "black",
+  },
+
+  subtitleAbout: {
     fontSize: 35,
-    color: "white",
+    color: "black",
     fontStyle: "italic",
     letterSpacing: 0.5,
     display: "block",
@@ -69,7 +92,15 @@ export const useStyles = makeStyles(theme => ({
     },
   },
 
-  imgBlock: {
+  secondTextAbout: {
+    fontSize: 17,
+    lineHeight: "29px",
+    marginBottom: 40,
+    color: "rgba(0,0,0,0.5)",
+    textAlign: "justify",
+  },
+
+  imgBlockContact: {
     width: "38%",
     backgroundImage:
       'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/contact-us2.jpeg?raw=true")',
@@ -81,6 +112,20 @@ export const useStyles = makeStyles(theme => ({
       height: 350,
     },
   },
+
+  imgBlockAbout: {
+    width: "38%",
+    backgroundImage:
+      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/about-us.jpeg?raw=true")',
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    [theme.breakpoints.down("md")]: {
+      width: "60%",
+      height: 350,
+    },
+  },
+
   third: {
     backgroundColor: "whitesmoke",
     textAlign: "center",

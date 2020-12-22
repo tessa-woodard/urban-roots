@@ -1,14 +1,14 @@
 import React from "react"
-import { useStyles } from "./useStylesContact"
+import { useStyles } from "./useStyles"
 
 const AboutUs = () => {
   const classes = useStyles()
 
   return (
     <>
-      <div className={classes.first}>
-        <h2 className={classes.title}>About Us</h2>
-        <span className={classes.subtitle}>
+      <div className={classes.firstAbout}>
+        <h2 className={classes.titleAbout}>About Us</h2>
+        <span className={classes.subtitleAbout}>
           Where plants are our inspiration.
         </span>
       </div>
@@ -18,7 +18,7 @@ const AboutUs = () => {
             Everyone Should Live with a Little More {""}
             <span className={classes.flowers}> Green </span>
           </h2>
-          <p className={classes.secondText}>
+          <p className={classes.secondTextAbout}>
             Urban Roots is here to help strengthen your relationship with
             plants. We make buying plants easy by delivering healthy,
             ready-to-go plants to your door and setting you up with the tips and
@@ -30,7 +30,7 @@ const AboutUs = () => {
             alt="logo"
           />
         </div>
-        <div className={classes.imgBlock} />
+        <div className={classes.imgBlockAbout} />
       </div>
       <div className={classes.third}>
         <h2 className={classes.thirdTitle}>Plants Experts</h2>
