@@ -77,17 +77,14 @@ export default class Menu extends Component {
                           <h6>{node.title}</h6>
                           <h6>${node.price}</h6>
                           <button
-                            class="snipcart-add-item btn btn-outline-dark"
-                            data-item-id={this.state.product._id}
-                            data-item-price={this.state.product.price}
+                            className="snipcart-add-item btn btn-outline-dark"
+                            data-item-id={node.id}
+                            data-item-name={node.title}
+                            data-item-price={node.price}
+                            data-item-image={node.image.fluid.src}
                             data-item-url="https://urban-roots.netlify.app/shop"
-                            data-item-description={
-                              this.state.product.description
-                            }
-                            data-item-image={this.state.product.image}
-                            data-item-name={this.state.product.title}
                           >
-                            Add to cart
+                            Add To Cart
                           </button>
                         </div>
                       </div>
