@@ -38,3 +38,24 @@ button {
 textarea {
   resize: none;
 }
+
+.product-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  justify-content: center;
+  line-height: 0.5em;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+}
+
+.product-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: olivedrab;
+  justify-content: center;
+  line-height: 0.5em;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}

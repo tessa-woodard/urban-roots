@@ -74,8 +74,8 @@ export default class Menu extends Component {
                           className="card-img-top"
                         />
                         <div className="card-body text-center">
-                          <h6>{node.title}</h6>
-                          <h6>${node.price}</h6>
+                          <h6 className="product-title">{node.title}</h6>
+                          <h6 className="product-price">${node.price}</h6>
                           <button
                             className="snipcart-add-item btn btn-outline-dark"
                             data-item-id={node.id}

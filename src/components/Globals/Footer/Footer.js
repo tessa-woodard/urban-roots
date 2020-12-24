@@ -24,7 +24,7 @@ export default function Footer() {
             <br />
             <ul class="navbar-nav mx-auto">
               <li class="mb-2">
-                <a class="nav-link text-dark" href="/FAQ">
+                <a class="nav-link text-dark" href="/faq">
                   Help & FAQ
                 </a>
               </li>
