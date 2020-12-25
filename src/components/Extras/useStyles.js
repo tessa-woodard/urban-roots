@@ -144,6 +144,15 @@ export const useStyles = makeStyles(theme => ({
     textAlign: "justify",
   },
 
+  secondTextBold: {
+    fontSize: 20,
+    fontWeight: 600,
+    lineHeight: "29px",
+    marginBottom: 40,
+    color: "rgba(0,0,0,0.5)",
+    textAlign: "justify",
+  },
+
   imgBlockContact: {
     width: "38%",
     backgroundImage:
@@ -252,5 +261,59 @@ export const useStyles = makeStyles(theme => ({
     fontSize: 18,
     color: "#afafaf",
     margin: "2px 0 4px",
+  },
+
+  firstTips: {
+    padding: "110px 0",
+    height: "100%",
+    textAlign: "center",
+    backgroundImage:
+      "url('https://images.pexels.com/photos/6583/nature-plant-leaf-leaves-6583.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500')",
+    backgroundAttachment: "fixed",
+    // backgroundPosition: 'center',
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    [theme.breakpoints.down("md")]: {
+      backgroundPosition: "right",
+    },
+  },
+
+  imgBlock1: {
+    width: "38%",
+    backgroundImage:
+      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/tips-collage1.jpeg?raw=true")',
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    [theme.breakpoints.down("md")]: {
+      width: "60%",
+      height: 350,
+    },
+  },
+
+  imgBlock2: {
+    width: "55%",
+    backgroundImage:
+      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/tips-collage2.jpeg?raw=true")',
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    [theme.breakpoints.down("md")]: {
+      width: "60%",
+      height: 350,
+    },
+  },
+
+  imgBlock3: {
+    width: "38%",
+    backgroundImage:
+      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/tips-collage3.jpeg?raw=true")',
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    [theme.breakpoints.down("md")]: {
+      width: "60%",
+      height: 350,
+    },
   },
 }))
