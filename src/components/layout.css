@@ -59,3 +59,93 @@ textarea {
   letter-spacing: 1px;
   margin-bottom: 1rem;
 }
+
+.register-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 8em 0;
+}
+
+@media (max-width: 600px) {
+  .register-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.register-img {
+  width: 40%;
+  background-image: url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/register.jpg?raw=true");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.register-title {
+  font-size: 5rem;
+  justify-content: center;
+  line-height: 0.8em;
+  margin-bottom: 2rem;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1rem;
+  margin-top: 0;
+}
+
+.flowers {
+  color: olivedrab;
+  font-size: 1.5rem;
+  justify-content: center;
+  line-height: 0.5em;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.1px;
+}
+
+.form-group {
+  line-height: 2rem;
+  padding-bottom: 2rem;
+}
+
+.login-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 9em 0;
+}
+
+@media (max-width: 600px) {
+  .login-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.login-img {
+  width: 40%;
+  background-image: url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/login.jpg?raw=true");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-title {
+  font-size: 5rem;
+  justify-content: center;
+  line-height: 0.8em;
+  margin-bottom: 2rem;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.1px;
+  margin-top: 0;
+}
+
+.flowers {
+  color: olivedrab;
+  font-size: 1.5rem;
+  justify-content: center;
+  line-height: 0.5em;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.1px;
+}
+
+.login-form-group {
+  line-height: 2rem;
+  padding-bottom: 2rem;
+}

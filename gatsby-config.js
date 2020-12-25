@@ -23,6 +23,21 @@ module.exports = {
         autopop: true,
       },
     },
+    {
+      resolve: "gatsby-plugin-firebase",
+      options: {
+        credentials: {
+          apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+          authDomain: "urban-roots-development.firebaseapp.com",
+          databaseURL:
+            "https://urban-roots-development-default-rtdb.firebaseio.com",
+          projectId: "urban-roots-development",
+          storageBucket: "urban-roots-development.appspot.com",
+          messagingSenderId: "337776378683",
+          appId: "1:337776378683:web:639bd5bbfe900c9f8ead1e",
+        },
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
