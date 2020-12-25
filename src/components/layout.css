@@ -60,6 +60,8 @@ textarea {
   margin-bottom: 1rem;
 }
 
+/* Register */
+
 .register-container {
   display: flex;
   justify-content: space-around;
@@ -105,6 +107,8 @@ textarea {
   padding-bottom: 2rem;
 }
 
+/* Login */
+
 .login-container {
   display: flex;
   justify-content: space-around;
@@ -136,16 +140,54 @@ textarea {
   margin-top: 0;
 }
 
-.flowers {
+.login-form-group {
+  line-height: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Reset password */
+
+.reset-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 9em 0;
+}
+
+@media (max-width: 600px) {
+  .forgot-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.reset-img {
+  width: 40%;
+  background-image: url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/reset-password.jpg?raw=true");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reset-title {
+  font-size: 5rem;
+  justify-content: center;
+  line-height: 0.8em;
+  margin-bottom: 2rem;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.1px;
+  margin-bottom: 5rem;
+}
+
+.reset-flowers {
   color: olivedrab;
-  font-size: 1.5rem;
+  font-size: 2rem;
   justify-content: center;
   line-height: 0.5em;
   font-family: "Playfair Display", serif;
   letter-spacing: 1.1px;
 }
 
-.login-form-group {
+.reset-form-group {
   line-height: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
 }

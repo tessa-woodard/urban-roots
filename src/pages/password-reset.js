@@ -6,10 +6,9 @@ import { AuthContext } from "../contexts/AuthContext"
 import { navigate } from "gatsby"
 import { Link } from "gatsby"
 
-const Login = () => {
+const PasswordReset = () => {
   const [data, setData] = useState({
     email: "",
-    password: "",
     error: null,
   })
 
@@ -23,9 +22,7 @@ const Login = () => {
     e.preventDefault()
     setData({ ...data, error: null })
     try {
-      const result = await firebase
-        .auth()
-        .signInWithEmailAndPassword(data.email, data.password)
+      const result = await firebase.auth().sendPasswordResetEmail(data.email)
       setUser(result)
       navigate("/")
     } catch (err) {
@@ -35,19 +32,18 @@ const Login = () => {
 
   return (
     <Layout>
-      <SEO title="Login" />
-      <div className="login-container">
-        <div className="login-img" />
-        <section className="login">
+      <SEO title="Password Reset" />
+      <div className="reset-container">
+        <div className="reset">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 mx-auto">
-              <h2 className="login-title">
-                Welcome Back!
+              <h2 className="reset-title">
+                Password Reset
                 <br />
-                <span className="flowers"> We're glad to see you, again! </span>
+                <span className="reset-flowers"> We've got you covered! </span>
               </h2>
               <form onSubmit={handleSubmit}>
-                <form className="form-group" id="email">
+                <form className="reset-form-group" id="email">
                   <form>Email</form>
                   <input
                     type="text"
@@ -58,43 +54,27 @@ const Login = () => {
                     required
                   />
                 </form>
-                <form className="form-group" id="password">
-                  <form>Password</form>
-                  <input
-                    type="text"
-                    name="password"
-                    className="form-control"
-                    value={data.password}
-                    onChange={handleChange}
-                    required
-                  />
-                </form>
                 <div className="w-100 text-center mt-2">
-                  Don't have an account?{" "}
+                  Need an account?{" "}
                   <Link to="/register" class="text-success">
                     Sign Up
                   </Link>
                 </div>
                 <br />
-                <div className="w-100 text-center mt-2">
-                  Forgot password?{" "}
-                  <Link to="/password-reset" class="text-success">
-                    We can help!
-                  </Link>
-                </div>
                 {data.error ? (
                   <p style={{ color: "red" }}>{data.error}</p>
                 ) : null}
                 <button class="btn btn-outline-dark" type="submit">
-                  Sign Up
+                  Reset Password
                 </button>
               </form>
             </div>
           </div>
-        </section>
+        </div>
+        <div className="reset-img" />
       </div>
     </Layout>
   )
 }
 
-export default Login
+export default PasswordReset

@@ -34,7 +34,7 @@ module.exports = {
           projectId: "urban-roots-development",
           storageBucket: "urban-roots-development.appspot.com",
           messagingSenderId: "337776378683",
-          appId: "1:337776378683:web:639bd5bbfe900c9f8ead1e",
+          appId: process.env.REACT_APP_FIREBASE_APP_ID,
         },
       },
     },
