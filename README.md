@@ -80,3 +80,17 @@
 
 ![](./assets/faq1.png)
 ![](./assets/faq2.png)
+
+<br />
+
+### This is the Plant Care Tips page where you can find helpful tips on how to properly take care of your new plant(s)!
+
+<br />
+
+![](./assets/tips1.png)
+![](./assets/tips2.png)
+![](./assets/tips3.png)
+![](./assets/tips4.png)
+![](./assets/tips5.png)
+![](./assets/tips6.png)
+![](./assets/tips7.png)
