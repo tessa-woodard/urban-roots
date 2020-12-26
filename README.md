@@ -47,10 +47,36 @@
 
 <br />
 
-### In the about page, we go into detail about Urban Roots' mission on providing great quality plants & much more!
+### On the about page, we go into detail about Urban Roots' mission on providing great quality plants & much more!
 
 <br />
 
 ![](./assets/about-us1.png)
 ![](./assets/about-us2.png)
 ![](./assets/about-us3.png)
+
+<br />
+
+### On the contact page the user will be able to fill out the contact form, that can be used for questions, special requests or feedback that will be sent to the Urban Roots team.
+
+<br />
+
+![](./assets/contact-us1.png)
+![](./assets/contact-us2.png)
+
+<br />
+
+### This is the shipping and delivery page that goes into detail about the shipping fees.
+
+<br />
+
+![](./assets/shipping.png)
+
+<br />
+
+### The FAQ page is where frequently asked questions are answered, each question can be clicked on that shows a drop down of the answer provided.
+
+<br />
+
+![](./assets/faq1.png)
+![](./assets/faq2.png)

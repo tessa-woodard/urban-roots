@@ -18,18 +18,7 @@ body {
   background-attachment: fixed;
 }
 
-.first-shop {
-  padding: 60px 0;
-  height: 100%;
-  text-align: center;
-  background-image: url("https://github.com/tessa-woodard/urban-roots/blob/main/src/images/profile.jpg?raw=true");
-  background-attachment: fixed;
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.title-shop {
+.title {
   padding: 130px 0;
   height: 100%;
   text-align: center;
@@ -41,7 +30,16 @@ body {
   font-weight: 600;
   margin: 0;
   font-family: "Playfair Display", serif;
-  color: black;
+  color: white;
+}
+
+.subtitle {
+  font-size: 40px;
+  color: white;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  display: block;
+  font-weight: bold;
 }
 
 code {
