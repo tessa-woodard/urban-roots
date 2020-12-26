@@ -5,9 +5,6 @@ export default function Contact() {
   const classes = useStyles()
   return (
     <>
-      <div className={classes.firstContact}>
-        <h2 className={classes.titleContact}>Contact Us</h2>
-      </div>
       <div className={classes.second}>
         <div className={classes.imgBlockContact} />
         <div className={classes.text}>

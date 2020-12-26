@@ -18,6 +18,30 @@ body {
   background-attachment: fixed;
 }
 
+.title {
+  padding: 130px 0;
+  height: 100%;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 80px;
+  font-weight: 600;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  color: white;
+}
+
+.subtitle {
+  font-size: 40px;
+  color: white;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  display: block;
+  font-weight: bold;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
