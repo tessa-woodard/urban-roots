@@ -8,9 +8,6 @@ const Inspiration = () => {
     <>
       <div className={classes.firstInspo}>
         <h2 className={classes.titleContact}>Inspiration</h2>
-        <span className={classes.subtitleInspo}>
-          Looking for inspiration? Well you came to the right place!
-        </span>
       </div>
       <div className={classes.second}>
         <div className={classes.imgBlockInspo} />

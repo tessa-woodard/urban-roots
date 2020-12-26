@@ -4,8 +4,9 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Urban Roots`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@tessawoodard`,
+    author: `Tessa Woodard`,
+    description: `This project was built to mimic an actual online plant  website with features that include, customer reviews, plants for purchase, inspiration ideas, about the company and a contact form.`,
+    siteUrl: `https://urban-roots.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -51,11 +52,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Gatsby Snipcart Starter`,
+        short_name: `Gatsby Snipcart`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
         display: `minimal-ui`,
         icon: `src/images/plant.svg`, // This path is relative to the root of the site.
       },

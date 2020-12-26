@@ -39,62 +39,67 @@ export default class Menu extends Component {
   render() {
     if (this.state.items.length > 0) {
       return (
-        <section className="menu py-5">
-          <div className="container">
-            {/* <Title title="our menu" /> */}
-            <div className="row mb-5">
-              <div className="col-8 mx-auto text-center">
-                {this.state.categories.map((category, index) => {
+        <>
+          <div className="first-shop">
+            <h2 className="title-shop">Inspiration</h2>
+          </div>
+          <section className="menu py-5">
+            <div className="container">
+              {/* <Title title="our menu" /> */}
+              <div className="row mb-5">
+                <div className="col-8 mx-auto text-center">
+                  {this.state.categories.map((category, index) => {
+                    return (
+                      <button
+                        type="button"
+                        key={index}
+                        className="btn btn-white text-capitalize m-3"
+                        onClick={() => {
+                          this.handleItems(category)
+                        }}
+                      >
+                        {category}
+                      </button>
+                    )
+                  })}
+                </div>
+              </div>
+              <div className="row">
+                {this.state.plant.map(({ node }) => {
                   return (
-                    <button
-                      type="button"
-                      key={index}
-                      className="btn btn-white text-capitalize m-3"
-                      onClick={() => {
-                        this.handleItems(category)
-                      }}
+                    <div
+                      key={node.id}
+                      className="col-10 col-sm-8 col-md-6 col-lg-4  mx-auto my-3"
                     >
-                      {category}
-                    </button>
+                      <div className="card" style={{ minHeight: "100%" }}>
+                        <div style={{ maxHeight: "500px" }}>
+                          <Img
+                            fluid={node.image.fluid}
+                            className="card-img-top"
+                          />
+                          <div className="card-body text-center">
+                            <h6 className="product-title">{node.title}</h6>
+                            <h6 className="product-price">${node.price}</h6>
+                            <button
+                              className="snipcart-add-item btn btn-outline-dark"
+                              data-item-id={node.id}
+                              data-item-name={node.title}
+                              data-item-price={node.price}
+                              data-item-image={node.image.fluid.src}
+                              data-item-url="https://urban-roots.netlify.app/shop"
+                            >
+                              Add To Cart
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   )
                 })}
               </div>
             </div>
-            <div className="row">
-              {this.state.plant.map(({ node }) => {
-                return (
-                  <div
-                    key={node.id}
-                    className="col-10 col-sm-8 col-md-6 col-lg-4  mx-auto my-3"
-                  >
-                    <div className="card" style={{ minHeight: "100%" }}>
-                      <div style={{ maxHeight: "500px" }}>
-                        <Img
-                          fluid={node.image.fluid}
-                          className="card-img-top"
-                        />
-                        <div className="card-body text-center">
-                          <h6 className="product-title">{node.title}</h6>
-                          <h6 className="product-price">${node.price}</h6>
-                          <button
-                            className="snipcart-add-item btn btn-outline-dark"
-                            data-item-id={node.id}
-                            data-item-name={node.title}
-                            data-item-price={node.price}
-                            data-item-image={node.image.fluid.src}
-                            data-item-url="https://urban-roots.netlify.app/shop"
-                          >
-                            Add To Cart
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                )
-              })}
-            </div>
-          </div>
-        </section>
+          </section>
+        </>
       )
     } else {
       return (
