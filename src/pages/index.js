@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => (
       title="Urban Roots"
       styleClass="default-background"
     />
-    <h1>This is the homepage, it is a work in progress!</h1>
+    <h1>This is the homepage, it is a work in progress! Come back soon!</h1>
   </Layout>
 )
 
