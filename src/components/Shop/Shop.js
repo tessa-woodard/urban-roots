@@ -40,10 +40,7 @@ export default class Menu extends Component {
     if (this.state.items.length > 0) {
       return (
         <>
-          <div className="first-shop">
-            <h2 className="title-shop">Inspiration</h2>
-          </div>
-          <section className="menu py-5">
+          <section className="shop py-5">
             <div className="container">
               {/* <Title title="our menu" /> */}
               <div className="row mb-5">
@@ -53,7 +50,7 @@ export default class Menu extends Component {
                       <button
                         type="button"
                         key={index}
-                        className="btn btn-white text-capitalize m-3"
+                        className="btn btn-outline-dark text-capitalize m-3"
                         onClick={() => {
                           this.handleItems(category)
                         }}
@@ -72,7 +69,7 @@ export default class Menu extends Component {
                       className="col-10 col-sm-8 col-md-6 col-lg-4  mx-auto my-3"
                     >
                       <div className="card" style={{ minHeight: "100%" }}>
-                        <div style={{ maxHeight: "500px" }}>
+                        <div style={{ maxHeight: "550px" }}>
                           <Img
                             fluid={node.image.fluid}
                             className="card-img-top"
