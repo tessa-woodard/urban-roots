@@ -42,7 +42,6 @@ export default class Menu extends Component {
         <>
           <section className="shop py-5">
             <div className="container">
-              {/* <Title title="our menu" /> */}
               <div className="row mb-5">
                 <div className="col-8 mx-auto text-center">
                   {this.state.categories.map((category, index) => {
@@ -70,10 +69,13 @@ export default class Menu extends Component {
                     >
                       <div className="card" style={{ minHeight: "100%" }}>
                         <div style={{ maxHeight: "550px" }}>
+                          <div className="img_container">
                           <Img
                             fluid={node.image.fluid}
                             className="card-img-top"
                           />
+                          <p className="img_description">{node.description.description}</p>
+                          </div>
                           <div className="card-body text-center">
                             <h6 className="product-title">{node.title}</h6>
                             <h6 className="product-price">${node.price}</h6>
@@ -81,6 +83,7 @@ export default class Menu extends Component {
                               className="snipcart-add-item btn btn-outline-dark"
                               data-item-id={node.id}
                               data-item-name={node.title}
+                              data-item-description={node.description.description}
                               data-item-price={node.price}
                               data-item-image={node.image.fluid.src}
                               data-item-url="https://urban-roots.netlify.app/shop"
@@ -102,7 +105,6 @@ export default class Menu extends Component {
       return (
         <section className="menu py-5">
           <div className="container">
-            {/* <Title title="best of our menu" /> */}
             <div className="row">
               <div className="col-10 col-6 mx-auto text-center text-capitalize">
                 <h1>there are no items to display</h1>

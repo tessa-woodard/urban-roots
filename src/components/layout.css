@@ -63,6 +63,27 @@ textarea {
   resize: none;
 }
 
+.img_container:hover .img_description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img_description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 1.5rem;
+  text-align: center;
+  max-height: 420px;
+  background: linear-gradient(white, transparent);
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
 .product-title {
   font-size: 1.1rem;
   font-weight: bold;
