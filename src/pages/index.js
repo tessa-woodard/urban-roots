@@ -5,6 +5,11 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BackgroundSection from "../components/Globals/BackgroundSection"
 
+import ABitMoreGreen from "../components/Homepage/ABitMoreGreen/ABitMoreGreen"
+import Services from "../components/Homepage/Services/Services"
+import BreakerBanner from "../components/Homepage/BreakerBanner/BreakerBanner"
+import Reviews from "../components/Homepage/Reviews/Reviews"
+
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
@@ -13,7 +18,10 @@ const IndexPage = ({ data }) => (
       title="Urban Roots"
       styleClass="default-background"
     />
-    <h1>This is the homepage, it is a work in progress! Come back soon!</h1>
+    <ABitMoreGreen />
+    <BreakerBanner />
+    <Services />
+    <Reviews />
   </Layout>
 )
 

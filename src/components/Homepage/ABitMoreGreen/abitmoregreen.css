@@ -1,0 +1,16 @@
+.first_section {
+  width: 100%;
+  margin-bottom: 160px;
+  margin-top: 160px;
+}
+.first_section_picture {
+  width: 430px;
+  height: 351px;
+}
+.first_section_text_one {
+  padding-top: 30px;
+  color: grey;
+}
+.first_section_text_two {
+  color: grey;
+}

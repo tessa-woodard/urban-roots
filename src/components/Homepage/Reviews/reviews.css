@@ -1,0 +1,90 @@
+.special-class {
+  text-align: center;
+  margin-top: 140px;
+  margin-bottom: 50px;
+}
+
+.reviews-wrapper {
+  min-height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.carousel {
+  margin: 0;
+  padding: 0 100px;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  left: 0;
+  transition: all 1s ease;
+}
+
+.review-card {
+  background: #f0f0f0;
+  width: 80%;
+  min-width: 300px;
+  max-height: 440px;
+  margin-right: 2rem;
+  display: inline-block;
+}
+
+.review-card-inside {
+  padding: 30px 8%;
+}
+
+.review-card-image {
+  height: 60px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.review-card-quote-mark {
+  right: 0;
+  height: 35px;
+}
+
+.review-card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px;
+  color: #4e5054;
+}
+
+.review-card-name-section {
+  display: flex;
+  margin: 50px 0 0 0;
+}
+
+.review-card-headshot-column {
+  flex: 20%;
+}
+
+.review-card-headshot {
+  background-color: grey;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.review-card-name-column {
+  flex: 80%;
+  padding: 8px 0 0 10px;
+}
+
+.review-card-name-column span {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 5px;
+  color: #4e5054;
+}
+
+.review-card-name-column p {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #4e5054;
+}

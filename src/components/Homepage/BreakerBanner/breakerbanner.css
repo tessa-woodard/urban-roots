@@ -1,0 +1,17 @@
+.bottom_banner {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-image: url("https://swairmi.github.io/Plant-site/Home/pics/bottom_banner .jpg");
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+#bottom_banner_contain {
+  padding: 0;
+  background-size: cover;
+  width: 100%;
+}
