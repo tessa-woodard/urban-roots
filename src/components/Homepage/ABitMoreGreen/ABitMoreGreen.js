@@ -1,13 +1,13 @@
 import React from "react"
 import styled from "styled-components"
-import homepageMain from "../../../../src/images/abitmoregreen.jpg"
+import MainImg from "../../../../src/images/abitmoregreen.jpg"
 
 const ABitMoreGreen = () => {
   return (
     <>
       <Wrapper className="section-center">
         <article className="img-container">
-          <img src={homepageMain} alt="nice table" className="main-img" />
+          <img src={MainImg} alt="nice table" className="main-img" />
         </article>
         <article className="content">
           <h1>

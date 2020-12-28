@@ -6,45 +6,60 @@ const Services = () => {
     <section>
       <div className="container">
         <div className="speical_class">
-          <h1>Our specialty green services</h1>
-          <p>We can make anything grow and flourish</p>
+          <h1 className="services-title">
+            Our Specialty <span className="green-service">Green </span> Services
+          </h1>
+          <hr
+            style={{
+              width: "50%",
+              textAlign: "center",
+            }}
+          />
+          <p className="service-p">
+            We can make anything <span className="green-service">grow</span> and
+            <span className="green-service"> flourish</span>
+          </p>
+          <br />
           <hr />
           <div className="row">
             <div className="col-md-4 column">
               <img
                 id="special_image"
-                src="https://swairmi.github.io/Plant-site/Home/pics/trio_single.jpg"
+                className="special-image"
+                src="https://images.unsplash.com/photo-1598184875857-6be2852bbe9c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTIzfHxwb3R0ZWQlMjBwbGFudHxlbnwwfDJ8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
               />
-              <h6>Plant rescue</h6>
+              <br />
+              <h6 className="service-title">Plant Rescue</h6>
+              <br />
               <p>
-                Plant can go through some tough times. We offer a complete{" "}
-                <a href>
-                  <b>rescue package</b>
-                </a>{" "}
-                to revive and restore your green companions
+                Plants can go through some tough times. We offer a complete{" "}
+                <b>rescue package </b>
+                to revive and restore your green companions.
               </p>
             </div>
             <div className="col-md-4 column">
               <img
                 id="special_image"
-                src="https://swairmi.github.io/Plant-site/Home/pics/trio_bell_jars.jpg"
+                src="https://images.pexels.com/photos/4484184/pexels-photo-4484184.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
               />
-              <h6>Workshops</h6>
+              <h6 className="service-title">Workshops</h6>
+              <br />
               <p>
-                Want to learn how to construct your own little green world? Take
-                one of our 2-hour classes and walk away with your own
-                masterpiece!
+                Want to learn how to take better care of your house plant(s)?
+                Take one of our 2-hour online classes and walk away with your
+                own masterpiece!
               </p>
             </div>
             <div className="col-md-4 column">
               <img
                 id="special_image"
-                src="https://swairmi.github.io/Plant-site/Home/pics/trio_tools.jpg"
+                src="https://images.unsplash.com/photo-1559821735-82f81ca3153e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjN8fHBvdHRlZCUyMHBsYW50fGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
               />
-              <h6>Replanting</h6>
+              <h6 className="service-title">Replanting</h6>
+              <br />
               <p>
-                If your terrarium is in need of a little TLC or a complete
-                makeover, We can bring your terrarium back to its original glory
+                If your house plant(s) is in need of a little TLC or a complete
+                makeover, we can bring your plant(s) back to its original glory
                 with our plant rescue service.
               </p>
             </div>
