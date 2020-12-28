@@ -1,90 +1,74 @@
-.special-class {
+.rev-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin: auto;
+  max-width: 100%;
   text-align: center;
-  margin-top: 140px;
-  margin-bottom: 50px;
+  background-color: #fefdf9;
 }
 
-.reviews-wrapper {
-  min-height: 500px;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-  margin: 0 auto;
+.review-title {
+  font-size: 4rem;
+  justify-content: center;
+  line-height: 0.5em;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.1px;
+  color: rgba(1, 1, 1, 1);
 }
 
-.carousel {
-  margin: 0;
-  padding: 0 100px;
-  list-style: none;
-  width: 100%;
+.reviews {
   display: flex;
-  position: absolute;
-  left: 0;
-  transition: all 1s ease;
+  flex-wrap: wrap;
 }
 
-.review-card {
-  background: #f0f0f0;
-  width: 80%;
-  min-width: 300px;
-  max-height: 440px;
-  margin-right: 2rem;
-  display: inline-block;
+.review {
+  margin: 0 1rem;
+  max-width: 350px;
+  flex: 1;
 }
 
-.review-card-inside {
-  padding: 30px 8%;
+.head-review {
+  margin: 1.75rem auto;
+  width: 200px;
+  height: 200px;
 }
 
-.review-card-image {
-  height: 60px;
+.review-img {
   width: 100%;
-  margin: 0 auto;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
-.review-card-quote-mark {
-  right: 0;
-  height: 35px;
+.body-review {
+  background-color: #fefdf9;
+  box-shadow: 10px 10px 10px 10px #ccc;
+  padding: 2.5rem;
 }
 
-.review-card-text {
-  font-size: 16px;
-  line-height: 1.5;
-  margin-top: 10px;
-  color: #4e5054;
+.name-review {
+  font-size: 1.25rem;
+  color: rgba(0, 0, 0, 0.25);
 }
 
-.review-card-name-section {
-  display: flex;
-  margin: 50px 0 0 0;
+.desc-review {
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.25);
 }
 
-.review-card-headshot-column {
-  flex: 20%;
+@media (max-width: 678px) {
+  .review {
+    margin-top: 1.5rem;
+  }
 }
 
-.review-card-headshot {
-  background-color: grey;
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-}
-
-.review-card-name-column {
-  flex: 80%;
-  padding: 8px 0 0 10px;
-}
-
-.review-card-name-column span {
-  font-size: 16px;
-  font-weight: 400;
-  margin-top: 5px;
-  color: #4e5054;
-}
-
-.review-card-name-column p {
-  font-size: 14px;
-  margin-top: 5px;
-  color: #4e5054;
+.review-flowers {
+  color: olivedrab;
+  font-size: 2rem;
+  justify-content: center;
+  line-height: 0.5em;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.1px;
 }

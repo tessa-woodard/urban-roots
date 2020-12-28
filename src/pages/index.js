@@ -15,7 +15,8 @@ const IndexPage = ({ data }) => (
     <SEO title="Home" />
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
-      title="Urban Roots"
+      title="Urban Roots
+      Plant Your Roots With Us. 🌱"
       styleClass="default-background"
     />
     <ABitMoreGreen />
