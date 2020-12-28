@@ -23,11 +23,11 @@
 
 <br />
 
-### This project was built to mimic an actual online plant website with features that include, customer reviews, plants for purchase, inspiration ideas, about the company and a contact form.
+### This project was built to mimic an actual online plant website with features that include, customer reviews, plants for purchase, inspiration ideas, helpful tips on how to care for your houseplant, about the company and a contact form.
 
 <br />
 
-### Welcome to the Homepage, which contains a little bit about Urban Roots, Our Services, Reviews and some Inspiration images.
+### Welcome to the Homepage, which contains a little bit about Urban Roots, Our Services, Customer Reviews and some Inspiration images.
 
 ![](./assets/home1.png)
 ![](./assets/home2.png)
