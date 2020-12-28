@@ -23,7 +23,7 @@
 
 <br />
 
-### This project was built to mimic an actual online plant website with features that include, customer reviews, plants for purchase, inspiration ideas, helpful tips on how to care for your houseplant, about the company and a contact form.
+### Urban Roots was built to mimic an actual online plant website with features that include, plants for purchase, authentication, inspiration ideas, plant care tips, about the company, FAQ page, as well as a contact form.
 
 <br />
 
