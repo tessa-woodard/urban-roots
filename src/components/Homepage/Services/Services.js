@@ -25,6 +25,7 @@ const Services = () => {
             <div className="col-md-4 column">
               <img
                 id="special_image"
+                alt="service"
                 className="special-image"
                 src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/services1.jpeg?raw=true"
               />
@@ -40,6 +41,7 @@ const Services = () => {
             <div className="col-md-4 column">
               <img
                 id="special_image"
+                alt="service"
                 src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/services2.jpeg?raw=true"
               />
               <h6 className="service-title">Workshops</h6>
@@ -53,6 +55,7 @@ const Services = () => {
             <div className="col-md-4 column">
               <img
                 id="special_image"
+                alt="service"
                 src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/services3.jpeg?raw=true"
               />
               <h6 className="service-title">Replanting</h6>

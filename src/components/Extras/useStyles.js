@@ -25,7 +25,6 @@ export const useStyles = makeStyles(theme => ({
     backgroundAttachment: "fixed",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    // backgroundSize: 'cover',
     [theme.breakpoints.down("md")]: {
       backgroundPosition: "right",
     },
@@ -216,7 +215,6 @@ export const useStyles = makeStyles(theme => ({
     fontSize: 20,
     lineHeight: "29px",
     width: 550,
-    // display: "inline-block",
   },
 
   expert: {
@@ -268,9 +266,8 @@ export const useStyles = makeStyles(theme => ({
     height: "100%",
     textAlign: "center",
     backgroundImage:
-      "url('https://images.pexels.com/photos/6583/nature-plant-leaf-leaves-6583.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500')",
+      "url('https://github.com/tessa-woodard/urban-roots/blob/main/src/images/tips-background.jpg?raw=true')",
     backgroundAttachment: "fixed",
-    // backgroundPosition: 'center',
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     [theme.breakpoints.down("md")]: {

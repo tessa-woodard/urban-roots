@@ -9,6 +9,7 @@ import ABitMoreGreen from "../components/Homepage/ABitMoreGreen/ABitMoreGreen"
 import Services from "../components/Homepage/Services/Services"
 import BreakerBanner from "../components/Homepage/BreakerBanner/BreakerBanner"
 import Reviews from "../components/Homepage/Reviews/Reviews"
+import Collage from "../components/Extras/Collage"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -23,6 +24,7 @@ const IndexPage = ({ data }) => (
     <BreakerBanner />
     <Services />
     <Reviews />
+    <Collage />
   </Layout>
 )
 
