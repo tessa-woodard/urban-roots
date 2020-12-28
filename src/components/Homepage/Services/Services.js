@@ -26,7 +26,7 @@ const Services = () => {
               <img
                 id="special_image"
                 className="special-image"
-                src="https://images.unsplash.com/photo-1598184875857-6be2852bbe9c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTIzfHxwb3R0ZWQlMjBwbGFudHxlbnwwfDJ8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/services1.jpeg?raw=true"
               />
               <br />
               <h6 className="service-title">Plant Rescue</h6>
@@ -40,7 +40,7 @@ const Services = () => {
             <div className="col-md-4 column">
               <img
                 id="special_image"
-                src="https://images.pexels.com/photos/4484184/pexels-photo-4484184.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/services2.jpeg?raw=true"
               />
               <h6 className="service-title">Workshops</h6>
               <br />
@@ -53,7 +53,7 @@ const Services = () => {
             <div className="col-md-4 column">
               <img
                 id="special_image"
-                src="https://images.unsplash.com/photo-1559821735-82f81ca3153e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjN8fHBvdHRlZCUyMHBsYW50fGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/services3.jpeg?raw=true"
               />
               <h6 className="service-title">Replanting</h6>
               <br />

@@ -44,12 +44,11 @@ const AboutUs = () => {
           <div>
             <img
               className={classes.expertImg}
-              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/women1.jpeg?raw=true"
+              src="https://images.pexels.com/photos/1820575/pexels-photo-1820575.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
               alt=""
               width="250px"
             />
-            <h3 className={classes.expertTitle}>RACHAEL BROOKS</h3>
-            {/* <span className={classes.expertName}>Florist</span> */}
+            <h3 className={classes.expertTitle}>MARIE BROOKS</h3>
           </div>
           <div>
             <img
@@ -59,17 +58,15 @@ const AboutUs = () => {
               width="250px"
             />
             <h3 className={classes.expertTitle}>KAYLA ADAMS</h3>
-            {/* <span className={classes.expertName}>Manager</span> */}
           </div>
           <div>
             <img
               className={classes.expertImg}
-              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/women3.jpeg?raw=true"
+              src="https://images.pexels.com/photos/4052800/pexels-photo-4052800.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
               alt=""
               width="250px"
             />
-            <h3 className={classes.expertTitle}>KRISTINA KNAPP</h3>
-            {/* <span className={classes.expertName}>Florist</span> */}
+            <h3 className={classes.expertTitle}>MICHAEL KELLY</h3>
           </div>
         </div>
       </div>

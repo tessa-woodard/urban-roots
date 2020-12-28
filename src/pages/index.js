@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import BackgroundSection from "../components/Globals/BackgroundSection"
+import BackgroundSection from "../components/Globals/HomeBackground"
 
 import ABitMoreGreen from "../components/Homepage/ABitMoreGreen/ABitMoreGreen"
 import Services from "../components/Homepage/Services/Services"
@@ -15,8 +15,8 @@ const IndexPage = ({ data }) => (
     <SEO title="Home" />
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
-      title="Urban Roots
-      Plant Your Roots With Us. 🌱"
+      title="Urban Roots"
+      subtitle="Plant Your Roots With Us."
       styleClass="default-background"
     />
     <ABitMoreGreen />
@@ -28,7 +28,7 @@ const IndexPage = ({ data }) => (
 
 export const query = graphql`
   {
-    img: file(relativePath: { eq: "background.jpeg" }) {
+    img: file(relativePath: { eq: "home-background.jpeg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG

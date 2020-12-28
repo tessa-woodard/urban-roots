@@ -20,7 +20,7 @@ const Reviews = () => {
               <div className="head-review">
                 <img
                   className="review-img"
-                  src="https://raw.githubusercontent.com/tessa-woodard/urban-roots/main/src/images/reviews1.jpeg"
+                  src="https://images.pexels.com/photos/5596203/pexels-photo-5596203.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
                   width="250px"
                   alt="user review"
                 />
@@ -32,7 +32,7 @@ const Reviews = () => {
               </div>
               <div className="name-review">
                 <hr />
-                <p className="review-flowers">Kaylyn</p>
+                <p className="review-flowers">Aubree</p>
                 <p>Riverside, CA</p>
               </div>
             </div>
@@ -42,7 +42,7 @@ const Reviews = () => {
               <div className="head-review">
                 <img
                   className="review-img"
-                  src="https://raw.githubusercontent.com/tessa-woodard/urban-roots/main/src/images/reviews2.jpeg"
+                  src="https://images.pexels.com/photos/4398944/pexels-photo-4398944.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
                   width="250px"
                   alt="user review"
                 />
@@ -53,7 +53,7 @@ const Reviews = () => {
               </div>
               <div className="name-review">
                 <hr />
-                <p className="review-flowers">Kristen</p>
+                <p className="review-flowers">CHARLES</p>
                 <p>Omaha, NE</p>
               </div>
             </div>
@@ -75,7 +75,7 @@ const Reviews = () => {
               </div>
               <div className="name-review">
                 <hr />
-                <p className="review-flowers">Kelsey</p>
+                <p className="review-flowers">KELSEY</p>
                 <p>Pittsburgh, PA</p>
               </div>
             </div>

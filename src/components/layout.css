@@ -33,8 +33,23 @@ body {
   color: black;
 }
 
+.home-title {
+  padding: 130px 0;
+  height: 100%;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 120px;
+  font-weight: 600;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  color: white;
+}
+
 .subtitle {
-  font-size: 40px;
+  font-size: 60px;
   color: white;
   font-style: italic;
   letter-spacing: 0.5px;
