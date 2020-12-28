@@ -62,7 +62,7 @@ const Inspiration = () => {
           <div>
             <img
               className={classes.inspoImg}
-              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-1.jpeg?raw=true"
+              src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/inspo/inspo-1.jpeg?raw=true"
               alt=""
               width="350px"
             />
@@ -70,7 +70,7 @@ const Inspiration = () => {
           <div>
             <img
               className={classes.inspoImg}
-              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-2.jpeg?raw=true"
+              src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/inspo/inspo-2.jpeg?raw=true"
               alt=""
               width="350px"
             />
@@ -78,33 +78,7 @@ const Inspiration = () => {
           <div>
             <img
               className={classes.inspoImg}
-              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-3.jpeg?raw=true"
-              alt=""
-              width="350px"
-            />
-          </div>
-        </div>
-        <div className={classes.inspo}>
-          <div>
-            <img
-              className={classes.inspoImg}
-              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-4.jpeg?raw=true"
-              alt=""
-              width="350px"
-            />
-          </div>
-          <div>
-            <img
-              className={classes.inspoImg}
-              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-5.jpeg?raw=true"
-              alt=""
-              width="350px"
-            />
-          </div>
-          <div>
-            <img
-              className={classes.inspoImg}
-              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-6.jpeg?raw=true"
+              src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/inspo/inspo-3.jpeg?raw=true"
               alt=""
               width="350px"
             />
@@ -114,7 +88,7 @@ const Inspiration = () => {
           <div>
             <img
               className={classes.inspoImg}
-              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-7.jpeg?raw=true"
+              src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/inspo/inspo-4.jpeg?raw=true"
               alt=""
               width="350px"
             />
@@ -122,7 +96,7 @@ const Inspiration = () => {
           <div>
             <img
               className={classes.inspoImg}
-              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-8.jpeg?raw=true"
+              src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/inspo/inspo-5.jpeg?raw=true"
               alt=""
               width="350px"
             />
@@ -130,7 +104,33 @@ const Inspiration = () => {
           <div>
             <img
               className={classes.inspoImg}
-              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-9.jpeg?raw=true"
+              src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/inspo/inspo-6.jpeg?raw=true"
+              alt=""
+              width="350px"
+            />
+          </div>
+        </div>
+        <div className={classes.inspo}>
+          <div>
+            <img
+              className={classes.inspoImg}
+              src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/inspo/inspo-7.jpeg?raw=true"
+              alt=""
+              width="350px"
+            />
+          </div>
+          <div>
+            <img
+              className={classes.inspoImg}
+              src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/inspo/inspo-8.jpeg?raw=true"
+              alt=""
+              width="350px"
+            />
+          </div>
+          <div>
+            <img
+              className={classes.inspoImg}
+              src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/inspo/inspo-9.jpeg?raw=true"
               alt=""
               width="350px"
             />

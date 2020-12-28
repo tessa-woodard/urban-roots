@@ -6,7 +6,7 @@ export const useStyles = makeStyles(theme => ({
     height: "100%",
     textAlign: "center",
     backgroundImage:
-      "url('https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/contact-us.jpeg?raw=true')",
+      "url('https://github.com/tessa-woodard/urban-roots/blob/main/src/images/contact-us.jpeg?raw=true')",
     backgroundAttachment: "fixed",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -21,7 +21,7 @@ export const useStyles = makeStyles(theme => ({
     height: "100%",
     textAlign: "center",
     backgroundImage:
-      "url('https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/background.jpeg?raw=true')",
+      "url('https://github.com/tessa-woodard/urban-roots/blob/main/src/images/background.jpeg?raw=true')",
     backgroundAttachment: "fixed",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -36,7 +36,7 @@ export const useStyles = makeStyles(theme => ({
     height: "100%",
     textAlign: "center",
     backgroundImage:
-      "url('https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspiration.jpg?raw=true')",
+      "url('https://github.com/tessa-woodard/urban-roots/blob/main/src/images/inspiration.jpg?raw=true')",
     backgroundAttachment: "fixed",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -156,7 +156,7 @@ export const useStyles = makeStyles(theme => ({
   imgBlockContact: {
     width: "38%",
     backgroundImage:
-      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/contact-us2.jpeg?raw=true")',
+      'url("https://github.com/tessa-woodard/urban-roots/blob/main/src/images/contact-us2.jpeg?raw=true")',
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
@@ -169,7 +169,7 @@ export const useStyles = makeStyles(theme => ({
   imgBlockAbout: {
     width: "38%",
     backgroundImage:
-      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/about-us.jpeg?raw=true")',
+      'url("https://github.com/tessa-woodard/urban-roots/blob/main/src/images/about-us.jpeg?raw=true")',
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
@@ -182,7 +182,7 @@ export const useStyles = makeStyles(theme => ({
   imgBlockInspo: {
     width: "38%",
     backgroundImage:
-      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/inspiration/inspo-collage.jpg?raw=true")',
+      'url("https://github.com/tessa-woodard/urban-roots/blob/main/src/images/inspo/inspo-collage.jpg?raw=true")',
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
@@ -281,7 +281,7 @@ export const useStyles = makeStyles(theme => ({
   imgBlock1: {
     width: "38%",
     backgroundImage:
-      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/tips-collage1.jpeg?raw=true")',
+      'url("https://github.com/tessa-woodard/urban-roots/blob/main/src/images/tips-collage1.jpeg?raw=true")',
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
@@ -294,7 +294,7 @@ export const useStyles = makeStyles(theme => ({
   imgBlock2: {
     width: "55%",
     backgroundImage:
-      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/tips-collage2.jpeg?raw=true")',
+      'url("https://github.com/tessa-woodard/urban-roots/blob/main/src/images/tips-collage2.jpeg?raw=true")',
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
@@ -307,7 +307,7 @@ export const useStyles = makeStyles(theme => ({
   imgBlock3: {
     width: "38%",
     backgroundImage:
-      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/tips-collage3.jpeg?raw=true")',
+      'url("https://github.com/tessa-woodard/urban-roots/blob/main/src/images/tips-collage3.jpeg?raw=true")',
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
@@ -351,7 +351,7 @@ export const useStyles = makeStyles(theme => ({
   imgBlockShipping: {
     width: "48%",
     backgroundImage:
-      'url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/shipping.png?raw=true")',
+      'url("https://github.com/tessa-woodard/urban-roots/blob/main/src/images/shipping.png?raw=true")',
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",

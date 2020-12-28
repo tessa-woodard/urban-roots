@@ -4,7 +4,7 @@ import "./reviews.css"
 const Reviews = () => {
   return (
     <div className="rev-section">
-      <h1 className="review-title">What People are Saying</h1>
+      <h1 className="review-title">What People Are Saying</h1>
       <br />
       <hr
         style={{
@@ -20,7 +20,7 @@ const Reviews = () => {
               <div className="head-review">
                 <img
                   className="review-img"
-                  src="https://images.pexels.com/photos/5596203/pexels-photo-5596203.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                  src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/reviews1.jpeg?raw=true"
                   width="250px"
                   alt="user review"
                 />
@@ -32,7 +32,7 @@ const Reviews = () => {
               </div>
               <div className="name-review">
                 <hr />
-                <p className="review-flowers">Aubree</p>
+                <p className="review-flowers">AUBREE</p>
                 <p>Riverside, CA</p>
               </div>
             </div>
@@ -42,7 +42,7 @@ const Reviews = () => {
               <div className="head-review">
                 <img
                   className="review-img"
-                  src="https://images.pexels.com/photos/4398944/pexels-photo-4398944.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                  src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/reviews2.jpeg?raw=true"
                   width="250px"
                   alt="user review"
                 />
@@ -63,7 +63,7 @@ const Reviews = () => {
               <div className="head-review">
                 <img
                   className="review-img"
-                  src="https://raw.githubusercontent.com/tessa-woodard/urban-roots/main/src/images/reviews3.jpeg"
+                  src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/reviews3.jpeg?raw=true"
                   width="250px"
                   alt="user review"
                 />

@@ -44,7 +44,7 @@ const AboutUs = () => {
           <div>
             <img
               className={classes.expertImg}
-              src="https://images.pexels.com/photos/1820575/pexels-photo-1820575.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/employee1.jpeg?raw=true"
               alt=""
               width="250px"
             />
@@ -53,7 +53,7 @@ const AboutUs = () => {
           <div>
             <img
               className={classes.expertImg}
-              src="https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/women2.jpeg?raw=true"
+              src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/employee2.jpeg?raw=true"
               alt=""
               width="250px"
             />
@@ -62,7 +62,7 @@ const AboutUs = () => {
           <div>
             <img
               className={classes.expertImg}
-              src="https://images.pexels.com/photos/4052800/pexels-photo-4052800.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/employee3.jpeg?raw=true"
               alt=""
               width="250px"
             />
