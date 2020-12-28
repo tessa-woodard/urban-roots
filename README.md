@@ -1,8 +1,6 @@
-# This project is still a WORK IN PROGRESS
-
 # Welcome to Urban Roots
 
-## ~ Your new online plant delivery website! ~
+## Plant Your Roots With Us.
 
 <br />
 
