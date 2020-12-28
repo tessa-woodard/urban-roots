@@ -11,7 +11,7 @@ const Inspiration = () => {
           <div>
             <img
               className={classes.inspoImg}
-              src="https://images.pexels.com/photos/5084182/pexels-photo-5084182.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/home/home-collage.jpeg?raw=true"
               alt=""
               width="350px"
             />
@@ -19,7 +19,7 @@ const Inspiration = () => {
           <div>
             <img
               className={classes.inspoImg}
-              src="https://images.pexels.com/photos/4823081/pexels-photo-4823081.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/home/home-collage2.jpeg?raw=true"
               alt=""
               width="350px"
             />
@@ -27,7 +27,7 @@ const Inspiration = () => {
           <div>
             <img
               className={classes.inspoImg}
-              src="https://images.pexels.com/photos/3255245/pexels-photo-3255245.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              src="https://github.com/tessa-woodard/urban-roots/blob/main/src/images/home/home-collage3.jpeg?raw=true"
               alt=""
               width="350px"
             />
