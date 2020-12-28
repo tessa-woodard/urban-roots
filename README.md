@@ -29,6 +29,17 @@
 
 <br />
 
+### Welcome to the Homepage, which contains a little bit about Urban Roots, Our Services, Reviews and some Inspiration images.
+
+![](./assets/home1.png)
+![](./assets/home2.png)
+![](./assets/home3.png)
+![](./assets/home4.png)
+![](./assets/home5.png)
+![](./assets/home6.png)
+
+<br />
+
 ### This is the Shop page which displays available plants that are available for purchase, which can completed by using the Snipcart shopping cart! Each product is displayed with a picture, title, price and when you hover over the image it will display the plants' description.
 
 ![](./assets/shop1.png)
@@ -58,6 +69,12 @@
 ### This is the Password Reset page, if a user forgets their password all they need to do is provide their email and will receive an email with instructions on how to reset their password.
 
 ![](./assets/password-reset.png)
+
+<br />
+
+### When a user is logged in the Navbar display a logout button instead of the Login and Sign Up buttons.
+
+![](./assets/navbar.png)
 
 <br />
 

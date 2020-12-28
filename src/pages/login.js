@@ -86,7 +86,7 @@ const Login = () => {
                   <p style={{ color: "red" }}>{data.error}</p>
                 ) : null}
                 <button class="btn btn-outline-dark" type="submit">
-                  Sign Up
+                  Login
                 </button>
               </form>
             </div>
