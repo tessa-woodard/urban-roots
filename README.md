@@ -29,6 +29,20 @@
 
 <br />
 
+### This is the Shop page which displays available plants that are available for purchase, which can completed by using the Snipcart shopping cart! Each product is displayed with a picture, title, price and when you hover over the image it will display the plants' description.
+
+![](./assets/shop1.png)
+![](./assets/shop2.png)
+![](./assets/shop3.png)
+![](./assets/shop4.png)
+![](./assets/shop5.png)
+![](./assets/shop6.png)
+![](./assets/shop7.png)
+
+![](./assets/cart.png)
+
+<br />
+
 ### This is the Sign Up page, where a user can create an account!
 
 ![](./assets/register.png)
